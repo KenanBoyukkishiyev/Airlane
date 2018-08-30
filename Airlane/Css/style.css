@@ -151,12 +151,12 @@ section{
 
 
 .icon ul li a.friends{
-	color: #fff;
+	color:  #00baf3;
 	
 }
 
 .icon ul li.friends{
-	background-color:blue;
+	background-color:#fff;
 }
 
 .icon ul li a.facebook{
@@ -165,17 +165,23 @@ section{
 }
 
 .icon ul li.facebook{
-	background-color: darkblue;
+	background-color: #3155a1;
 }
-
+.icon ul li.facebook:hover{
+	background-color:#000;
+}
 .icon ul li a.twitter{
 	color: #fff;
 	
 }
 
 .icon ul li.twitter{
-	background-color: blue;
+	background-color: #1da1f2;
 }
+.icon ul li.twitter:hover{
+	background-color:#000;
+}
+
 
 
 .icon ul li a.pinterest{
@@ -184,9 +190,12 @@ section{
 }
 
 .icon ul li.pinterest{
-	background-color:brown;
+	background-color:#cbd081;
 }
 
+.icon ul li.pinterest:hover{
+	background-color:#000;
+}
 
 .icon ul li a.plus{
 	color: #fff;
@@ -194,5 +203,8 @@ section{
 }
 
 .icon ul li.plus{
-	background-color:red;
+	background-color:#dd4b39;
+}
+.icon ul li.plus:hover{
+	background-color:#000;
 }
